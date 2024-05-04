@@ -1,0 +1,126 @@
+/* Laptop */
+@media only screen and (max-width: 1439px) {
+    .page-content > h1 {
+        margin-bottom: 2.5rem;
+    }
+
+    .page-input input[type="email"] {
+        width: 30rem;
+    }
+
+    .page-input input[type="submit"] {
+        width: 10rem;
+    }
+
+    .page-link i {
+        font-size: 2.75rem;
+        margin: 4rem 1.5rem;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+    .page-content > h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .page-content > p {
+        font-size: 1.25rem;
+        margin-bottom: 4rem;
+    }
+
+    .page-input input[type="email"] {
+        width: 25rem;
+    }
+
+    .page-input input[type="submit"] {
+        width: 8rem;
+    }
+
+    .page-link i {
+        font-size: 2.25rem;
+        margin: 3rem 1.5rem;
+    }
+}
+
+/* Mobile L */
+@media only screen and (max-width: 767px) {
+    .page-content > h1 {
+        font-size: 2rem;
+        line-height: 1.25;
+        margin: 0 auto 1.5rem;
+        text-align: center;
+        width: 90%;
+    }
+
+    .page-content > p {
+        font-size: 1.1rem;
+        margin: 0 auto 3rem;
+        width: 90%;
+    }
+    
+    .page-input input[type="email"] {
+        width: 22.5rem;
+    }
+
+    .page-input input[type="submit"] {
+        width: 10rem;
+    }
+
+    .page-input input[type="email"],
+    .page-input input[type="submit"] {
+        display: block;
+        margin: 0 auto 1rem;
+    }
+
+    .page-link i {
+        font-size: 2rem;
+        margin: 2rem 1rem;
+    }
+}
+
+/* Mobile M */
+@media only screen and (max-width: 575px) {
+    .page-content > h1 {
+        font-size: 1.85rem;
+        width: 95%;
+    }
+
+    .page-content > p {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .page-link i {
+        font-size: 1.75rem;
+        margin: 1.5rem 0.75rem;
+    }
+}
+
+/* Mobile S */
+@media only screen and (max-width: 479px) {
+    .page-content > h1 {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+        width: 95%;
+    }
+
+    .page-content > p {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .page-input input[type="email"] {
+        width: 17.5rem;
+    }
+
+    .page-input input[type="submit"] {
+        width: 7rem;
+    }
+
+    .page-link i {
+        font-size: 1.5rem;
+        margin: 1.5rem 0.75rem;
+    }
+}
